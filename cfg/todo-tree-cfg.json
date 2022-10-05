@@ -1,0 +1,122 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "go.alternateTools": {},
+    "editor.fontSize": 18,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.inlineSuggest.enabled": true,
+    "todo-tree.tree.autoRefresh": true,
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "background": "#ff0000",
+            "foreground": "#eeff00",
+            "iconColour": "#ff0000",
+            "gutterIcon": true,
+            "icon": "bug",
+            "type": "tag"
+        },
+        "TODO": {
+            "type": "tag",
+            "icon": "checklist",
+            "iconColour": "#ffb86c",
+            "foreground": "#f8f8f2",
+            "background": "#ffb86c",
+            "opacity": 0.5,
+            "fontWeight": "bold",
+            "borderRadius": "3px",
+            "gutterIcon": true,
+            "rulerColour": "#ffb86c",
+            "rulerLane": "left"
+        },
+        "FIXME": {
+            "background": "#ff5555",
+            "iconColour": "#ff5555",
+            "foreground": "#fea34d",
+            "rulerColour": "#211e1e",
+            "fontWeight": "bold",
+            "gutterIcon": true,
+            "type": "tag",
+            "icon": "alert"
+        },
+        "REFACTOR": {
+            "background": "#030e4f",
+            "foreground": "#f40f1c",
+            "iconColour": "#f40f1c",
+            "fontWeight": "bold",
+            "gutterIcon": true,
+            "type": "tag",
+            "icon": "star-fill"
+        },
+        "RESEARCH": {
+            "background": "#5566af",
+            "foreground": "#a9dce3",
+            "iconColour": "#a9dce3",
+            "fontWeight": "bold",
+            "gutterIcon": true,
+            "type": "tag",
+            "icon": "beaker"
+        },
+        "SOLVED": {
+            "background": "#a2ff00",
+            "foreground": "#62ff00",
+            "iconColour": "#a2ff00",
+            "fontWeight": "bold",
+            "gutterIcon": true,
+            "type": "tag",
+            "icon": "check-circle"
+        },
+        "TESTS": {
+            "background": "#e71989",
+            "foreground": "#ffe042",
+            "iconColour": "#e71989",
+            "fontWeight": "bold",
+            "gutterIcon": true,
+            "type": "tag",
+            "icon": "question"
+        },
+        "REFS": {
+            "background": "#ff00f2",
+            "foreground": "#62ff00",
+            "iconColour": "#62ff00",
+            "fontWeight": "bold",
+            "gutterIcon": true,
+            "type": "tag",
+            "icon": "cross-reference"
+        },
+        "REMOVE": {
+            "background": "#ffffff",
+            "foreground": "#705e03",
+            "iconColour": "#705e03",
+            "fontWeight": "bold",
+            "gutterIcon": true,
+            "type": "tag",
+            "icon": "trash"
+        }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "#0400ff",
+        "background": "#FFFFFF",
+        "opacity": 50,
+        "iconColour": "#0400ff"
+    },
+    "todo-tree.tree.disableCompactFolders": true,
+    "todo-tree.tree.hideTreeWhenEmpty": true,
+    "todo-tree.tree.labelFormat": "${tag} ${after} ",
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.buttons.export": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "TODO",
+        "FIXME",
+        "REFACTOR",
+        "RESEARCH",
+        "SOLVED",
+        "TESTS",
+        "REFS",
+        "REMOVE"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
